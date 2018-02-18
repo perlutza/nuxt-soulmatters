@@ -17,6 +17,26 @@ module.exports = {
 css:[
   '~assets/app.styl'
 ],
+modules:[
+  'nuxtent','@nuxtjs/pwa',
+],
+nuxtent: {
+  content: [
+    ["posts", {
+      page: '/_posts',
+      permalink: '/:year/:month/:slug',
+      generate: [
+        // assets to generate static build
+        "get",
+        "getAll",
+      ]
+    }],
+   
+       
+  ]
+
+},
+
   /*
   ** Customize the progress bar color
   */

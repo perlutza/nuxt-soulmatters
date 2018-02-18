@@ -13,13 +13,18 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "footer": "^1.0.0",
-    "header": "^0.1.1",
-    "nuxt": "^1.0.0",
+    "@nuxtjs/axios": "^4.3.0",
+    "@nuxtjs/component-cache": "^1.1.1",
+    "@nuxtjs/pwa": "1.0.2",
+    "@nuxtjs/sitemap": "^0.0.3",
+    "axios": "^0.17.1",
+    "nuxt": "1.0.0-rc11",
+    "nuxtent": "latest",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1",
-    "v-carousel": "^1.0.2",
-    "vuetify": "^1.0.1"
+    "vue-lazyload": "^1.2.0",
+    "vue-progressive-images": "^2.0.6",
+    "vuetify": "^0.17.7"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
